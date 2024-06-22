@@ -1,4 +1,5 @@
 # TaskManager
+GitHub Link:- https://github.com/ChiragSaini07/TaskManager.git
 This Project is developed using nextjs, react, prisma and mongodb.
 Nextjs & reactjs are used for framework and front-end.
 Prisma and Mongodb provides the backend facility, with mongodb as database.
@@ -21,3 +22,4 @@ the root directory.
 will occur due to no account present.
 7.	Then in the later logins you can sign-in with the same account.
 8.	Now the tasks can be added, edited, deleted or marked completed in the application.
+
