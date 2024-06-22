@@ -1,5 +1,4 @@
 # TaskManager
-GitHub Link:- https://github.com/ChiragSaini07/TaskManager.git
 This Project is developed using nextjs, react, prisma and mongodb.
 Nextjs & reactjs are used for framework and front-end.
 Prisma and Mongodb provides the backend facility, with mongodb as database.
@@ -7,12 +6,12 @@ Prisma and Mongodb provides the backend facility, with mongodb as database.
 How to run the project:-
 1.	In order to run application two environment files are required to connect to database and 
 other to put the secret api key to start the clerk.
-a.	‘prisma init –datasource-provider mongodb’  will initialize the prisma with mongodb database and will provide the .env file and prisma folder for schema and model creation.
-b.	Prisma folder is already included with the code file.
-c.	Only env files and connection need to be established.
-d.	.env.local file need to be created manually.
-e.	.env will contain the database url and .env.local will contain the secret api key.
-f.	Both of these are required to be putted in the root directory.
+    `prisma init –datasource-provider mongodb`  will initialize the prisma with mongodb database and will provide the .env file and prisma folder for schema and model creation.
+    Prisma folder is already included with the code file.
+    Only env files and connection need to be established.
+    .env.local file need to be created manually.
+    .env will contain the database url and .env.local will contain the secret api key.
+    Both of these are required to be putted in the root directory.
 2.	The Project will run with the command `npm run dev`.
 3.	The command should be typed in the code editor Terminal OR in the command prompt of 
 the root directory.
