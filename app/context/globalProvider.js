@@ -11,7 +11,7 @@ export const GlobalUpdateContext = createContext();
 export const GlobalProvider = ({ children }) => {
   const { user } = useUser();
 
-  const [selectedTheme, setSelectedTheme] = useState(0);
+  const [selectedTheme, setSelectedTheme] = useState(1);
   const [isLoading, setIsLoading] = useState(false);
   const [modal, setModal] = useState(false);
   const [collapsed, setCollapsed] = useState(false);

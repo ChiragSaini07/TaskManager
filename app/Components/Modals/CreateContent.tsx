@@ -145,7 +145,7 @@ const CreateContentStyled = styled.form`
     font-weight: 600;
   }
 
-  color: ${(props) => props.theme.colorGrey1};
+  color: #333333;
 
   .input-control {
     position: relative;

@@ -111,7 +111,7 @@ const TaskStyled = styled.main`
     gap: 0.5rem;
 
     height: 16rem;
-    color: ${(props) => props.theme.colorGrey2};
+    color: #333333;
     font-weight: 600;
     cursor: pointer;
     border-radius: 1rem;

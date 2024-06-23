@@ -70,6 +70,7 @@ function Sidebar() {
           type={"submit"}
           padding={"0.4rem 0.8rem"}
           borderRad={"0.8rem"}
+          color="#333333"
           fw={"500"}
           fs={"1.2rem"}
           icon={logout}
@@ -152,7 +153,7 @@ const SidebarStyled = styled.nav<{ collapsed: boolean }>`
     cursor: pointer;
 
     font-weight: 500;
-    color: ${(props) => props.theme.colorGrey0};
+    color: #333333;
 
     display: flex;
     align-items: center;
@@ -165,7 +166,7 @@ const SidebarStyled = styled.nav<{ collapsed: boolean }>`
       height: 100%;
       backdrop-filter: blur(10px);
       z-index: 0;
-      background: ${(props) => props.theme.colorBg3};
+      background: grey;
       transition: all 0.55s linear;
       border-radius: 1rem;
       border: 2px solid ${(props) => props.theme.borderColor2};
